@@ -12,14 +12,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-     <!----------INICIO de la barra de navegacion nueva---------->
-     <header class="menu__wrapper">
-        <div class="menu__bar">
-            <a href="#" title="Home" aria-label="home" class="logo">
-                <h3>BLOCKBUSTER</h3>
-            </a>
+    <!----------INICIO de la barra de navegacion nueva---------->
+    <header>
+        <div class="nav-bar">
+            <div class="blockbuster-logo-btn">
+                <a href="#home" title="Home" aria-label="home">BLOCKBUSTER</a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li class="list-menu-item">
+                        <a href="#home" title="Home">
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="list-menu-item">
+                        <a href="#my-favourites" title="My favourites">
+                            <span>Mis favoritos</span>
+                        </a>
+                    </li>
+
+                    <li class="list-menu-item">
+                        <a href="#genres" title="Genres">
+                            <span>Géneros</span>
+
+                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                                <path
+                                    d="M12.78 5.22a.749.749 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06 0L3.22 6.28a.749.749 0 1 1 1.06-1.06L8 8.939l3.72-3.719a.749.749 0 0 1 1.06 0Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <div class="dropdown-menu-wrapper">
+                            <div class="dropdown-menu">
+                            
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="action-buttons">
+            <a href="#log-in" title="Log in" class="log-in-btn">Iniciar sesión</a>
+
+            <a href="#sing-in" title="Sign up" class="sign-up-btn">Crear cuenta</a>
         </div>
     </header>
+    
+    <!----------INICIO deL footer---------->
+
     
     <script src="./script.js"></script>
 </body>
