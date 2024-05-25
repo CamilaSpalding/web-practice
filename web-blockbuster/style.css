@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --navbar-height: 64px;
+    --dark-blue: #05235a;
+    --mid-blue: #0e3273;
+    --mid-blue-hover: #143D85;
+    --light-blue: #1b4796;
+    --dark-blueish-gray: #5c74a0;
+    --light-blueish-gray: #AEBAD0;
+    --yellow: #f7a715;
+    --white: #E4E8EF;
+}
