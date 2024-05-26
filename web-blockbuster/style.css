@@ -5,7 +5,7 @@
 }
 
 :root {
-    --navbar-height: 64px;
+    --navbar-height: 72px;
     --dark-blue: #05235a;
     --mid-blue: #0e3273;
     --mid-blue-hover: #143D85;
@@ -14,4 +14,119 @@
     --light-blueish-gray: #AEBAD0;
     --yellow: #f7a715;
     --white: #E4E8EF;
+    --headings-font: 'Bebas Neue', sans-serif;
+    --texts-font: 'Raleway', sans-serif;
+    --font-size-1: 16px;
+    --font-size-2: 18px;
 }
+
+body {
+    font-family: var(--texts-font);
+    font-weight: 400;
+    font-size: var(--font-size-1);
+    background-color: var(--light-blue);
+}
+
+
+/* Navbar design */
+
+.nav-bar-wrapper {
+    background-color: var(--light-blue);
+    width: 100vw;
+    height: var(--navbar-height);
+    padding: 0px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 10px 10px 0 rgba(5, 35, 90, 0.12);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.blockbuster-logo-btn {
+    cursor: pointer;
+}
+
+.blockbuster-logo-wrapper {
+    border: 1px solid var(--yellow);
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 5px 6.5px;
+    rotate: -7deg;
+}
+
+.blockbuster-logo {
+    text-decoration: none;
+    font-family: var(--headings-font);
+    font-size: var(--font-size-2);
+    color: var(--yellow);
+}
+
+.navigation {
+
+}
+
+.menu-list-item {
+
+}
+
+.genres-btn {
+
+}
+
+.dropdown-menu-wrapper {
+
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-menu-list {
+
+}
+
+.dropdown-menu-list-item:nth-child(1) {
+
+}
+
+.dropdown-menu-list-item:nth-child(2) {
+    
+}
+
+.dropdown-menu-list-item {
+
+}
+
+.action-btn {
+
+}
+
+.log-in-btn {
+
+}
+
+.sign-in-btn {
+
+}
+
+.hide {
+
+}
+
+.burger-menu-icon {
+    
+}
+
+
+
+
+
+
