@@ -126,19 +126,6 @@ body {
     cursor: pointer;
 }
 
-/* .log-in-btn {
-    width: 106px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: var(--borders-width) solid var(--black) ;
-    border-radius: var(--border-radius-1);
-    background-color: transparent;
-    padding: 8px;
-    cursor: pointer;
-} */
-
 .log-in-btn {
     text-decoration: none;
     width: 106px;
@@ -155,15 +142,6 @@ body {
     font-size: var(--font-size-8);
     font-weight: 400;
 }
-
-/* .log-in-btn>a {
-    padding-left: 8px;
-    text-decoration: none;
-    color: var(--black);
-    font-size: var(--font-size-8);
-    font-family: var(--aicura-logo-font);
-    font-weight: 400;
-} */
 
 .log-in-icon-wrapper {
     width: 24px;
