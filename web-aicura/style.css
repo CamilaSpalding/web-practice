@@ -71,29 +71,88 @@ body {
     border-radius: var(--border-radius-1);
 }
 
-/* .aicura-logo-btn {
-} */
-
-.aicura-logo {
+.aicura-logo-btn {
     text-decoration: none;
     color: var(--black);
     font-size: var(--font-size-7);
     font-weight: var(--font-weight-semibold);
 }
 
-.aicura-logo #special-letter {
+.aicura-logo-btn #special-letter {
     color: var(--purple-illusion);
 }
 
 .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
 }
+
 .menu-list {
+    display: flex;
 }
+
 .menu-list-item {
+    list-style-type: none;
+    padding: 10.5px 16px;
 }
+
+.menu-list-item>a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--font-size-8);
+    font-weight: var(--font-weight-regular);
+}
+
 .action-btns {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
+
 .search-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--borders-width) solid var(--black) ;
+    border-radius: var(--border-radius-1);
+    background-color: transparent;
 }
+
 .log-in-btn {
+    width: 106px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--borders-width) solid var(--black) ;
+    border-radius: var(--border-radius-1);
+    background-color: transparent;
+    padding: 8px;
+}
+
+.log-in-btn>a {
+    padding-left: 8px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: var(--font-size-8);
+    font-family: var(--aicura-logo-font);
+    font-weight: 400;
+}
+
+.log-in-icon-wrapper {
+    width: 24px;
+    height: 24px;
+    background-color: var(--purple-illusion);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius-1);
+}
+
+.log-in-icon-wrapper>img {
+    color: var(--black);
 }
