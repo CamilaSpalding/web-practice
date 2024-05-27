@@ -173,6 +173,10 @@ body {
     padding: 0;
 }
 
+.main-page section:last-child {
+    padding-top: 40px;
+}
+
 
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
@@ -199,6 +203,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .contact-section h3 {
@@ -218,42 +223,51 @@ body {
 .form-group {
     display: flex;
     gap: 12px;
+    width: 100%;
+    position: relative; /* AYUDA DE CHAP GPT */
 }
 
 .form-group label {
     position: absolute;
     font-weight: var(--font-weight-regular);
     color: var(--gray);
+    padding: 20px;
+    pointer-events: none; /* AYUDA DE CHAP GPT */
 }
 
 .user-contact-info {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 100%; /* AYUDA DE CHAP GPT */
 }
 
 .user-contact-input {
     display: flex;
     align-items: center;
-}
-
-.user-contact-info label {
-    padding: 20px;
+    position: relative; /* AYUDA DE CHAP GPT */
+    width: 100%; /* AYUDA DE CHAP GPT */
 }
 
 .user-contact-input input {
+    width: 100%; /* AYUDA DE CHAP GPT */
     height: 59px;
     border: none;
     border-radius: var(--border-radius-1);
     background-color: var(--white-smoke);
     display: flex;
     gap: 12px;
+    padding: 20px;
 }
 
 .user-message {
+    width: 100%; /* AYUDA DE CHAP GPT */
+    position: relative; /* AYUDA DE CHAP GPT */
 }
 
 .user-message textarea {
+    width: 100%; /* AYUDA DE CHAP GPT */
+    height: 100%;
     border: none;
     border-radius: var(--border-radius-1);
     background-color: var(--white-smoke);
