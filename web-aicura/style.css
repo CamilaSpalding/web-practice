@@ -70,6 +70,7 @@ body {
     justify-content: space-between;
     border-radius: var(--border-radius-1);
     z-index: 2;
+    margin-bottom: 12px;
 }
 
 .aicura-logo-btn {
@@ -155,8 +156,25 @@ body {
     border-radius: var(--border-radius-1);
 }
 
+/* MAIN PAGE DESIGN */
 
-/* BODY: PRIMARY PANNEL DESIGN */
+.main-page {
+}
+
+.main-page section {
+    margin-bottom: 12px;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+    padding: 60px 24px;
+}
+
+.main-page section:nth-child(1) {
+    background-color: transparent;
+    padding: 0;
+}
+
+
+/* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
 .homepage-section {
 
@@ -168,6 +186,74 @@ body {
 
 .homepage-section div:nth-child(5) div:nth-child(2) img {
     height: 681px;
+}
+
+
+/* MAIN PAGE: CONTACT PANNEL DESIGN */
+
+.contact-section {
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section h3 {
+    font-size: var(--font-size-1);
+    color: var(--black);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 36px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.form-group {
+    display: flex;
+    gap: 12px;
+}
+
+.user-contact-info {
+}
+
+.user-contact-input {
+}
+
+.user-message {
+}
+
+.form-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aicura-contact-info {
+    display: flex;
+    gap: 4px;
+}
+
+.aicura-contact-info-pill {
+    height: 38px;
+    background-color: var(--lavander);
+    border-radius: var(--border-radius-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 16px;
+}
+
+.aicura-email-address {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.aicura-phone-number {
+    color: var(--black);
+    cursor: text;
 }
 
 
@@ -252,14 +338,9 @@ body {
     gap: 24px;
 }
 
-.contact-info #aicura-email-address a {
+.aicura-email-address a {
     text-decoration: none;
     color: var(--black);
-}
-
-.contact-info #aicura-phone-number {
-    color: var(--black);
-    cursor: text;
 }
 
 .footer-legal-section {
@@ -290,4 +371,3 @@ body {
 .aicura-logo-footer-btn #special-letter-footer {
     color: var(--lavander);
 }
-
