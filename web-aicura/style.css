@@ -47,7 +47,7 @@
     --font-size-7: 18px;
     --font-size-8: 16px;
     /* Border widths */
-    --borders-width: 1.35px;
+    --borders-width: 1.5px;
     /* Border radiuses */
     --border-radius-1: 30px;
     --border-radius-2: 18px;
@@ -69,6 +69,7 @@ body {
     align-items: center;
     justify-content: space-between;
     border-radius: var(--border-radius-1);
+    z-index: 2;
 }
 
 .aicura-logo-btn {
@@ -76,6 +77,7 @@ body {
     color: var(--black);
     font-size: var(--font-size-7);
     font-weight: var(--font-weight-semibold);
+    /* width: 150px; */
 }
 
 .aicura-logo-btn #special-letter {
@@ -151,8 +153,4 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: var(--border-radius-1);
-}
-
-.log-in-icon-wrapper>img {
-    color: var(--black);
 }
