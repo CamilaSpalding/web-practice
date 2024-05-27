@@ -54,7 +54,7 @@
 }
 
 body {
-    background-color: var(--white-smoke);
+    background-color: var(--background-gray);
     font-family: var(--aicura-logo-font);
     padding: 20px 4%;
 }
@@ -155,10 +155,133 @@ body {
     border-radius: var(--border-radius-1);
 }
 
+
 /* BODY: PRIMARY PANNEL DESIGN */
 
+.homepage-section {
+
+}
+
+.homepage-section div:nth-child(3) img {
+    width: 321px;
+}
+
+.homepage-section div:nth-child(5) div:nth-child(2) img {
+    height: 681px;
+}
 
 
 /* FOOTER DESIGN */
 
+.footer-wrapper {
+    height: 582px;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-footer-section {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-directory {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-directory h3 {
+    font-size: var(--font-size-8);
+    color: var(--black);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 16px;
+}
+
+.footer-directory ul {
+    list-style-type: none;
+}
+
+.footer-directory ul li {
+    margin-bottom: 10px;
+}
+
+.footer-directory ul li a {
+    text-decoration: none;
+    font-size: var(--font-size-8);
+    color: var(--gray);
+    font-weight: var(--font-weight-regular);
+}
+
+.footer-directory-column-section {
+}
+
+.footer-directory-column-section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.social-and-contact-section {
+}
+
+.social-media-accounts-btns {
+    display: flex;
+    gap: 8px;
+}
+
+.social-media-accounts-btns button {
+    width: 46px;
+    height: 46px;
+    background-color: var(--white-smoke);
+    border: none;
+    border-radius: var(--border-radius-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.facebook-btn {
+}
+.linkedin-btn {
+}
+.instagram-btn {
+}
+.youtube-btn {
+}
+.contact-info {
+}
+
+.footer-legal-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.legals-btns {
+    display: flex;
+    gap: 24px;
+}
+
+.legals-btns a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: var(--font-size-8);
+    font-weight: var(--font-weight-regular);
+}
+
+.aicura-logo-footer-btn {
+    text-decoration: none;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-semibold);
+    color: var(--purple-illusion);
+}
+
+.aicura-logo-footer-btn #special-letter-footer {
+    color: var(--lavander);
+}
 
