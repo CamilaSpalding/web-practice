@@ -295,6 +295,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 64px;
     background-color: var(--purple-illusion);
     border: none;
     border-radius: var(--border-radius-1);
@@ -317,6 +318,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.send-icon-wrapper img {
+    width: 12px;
 }
 
 
