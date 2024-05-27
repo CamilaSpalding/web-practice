@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    /* Color pallete */
+    --black: #202020;
+    --gray: #9b9b9b;
+    --white-smoke: #f2f2f2;
+    --white: #ffffff;
+    --moody-blue: #8b83dc;
+    --purple-illusion: #b1aaff;
+    --lavander-blue: #d1cdff;
+    --lavander: #e4e2ff;
+    --invalid-red: #e25655;
+    --dirty-lavander: #e5e4ed;
+    /* Opacities */
+    --white-opacity-1: rgb(255, 255, 255, 0.7);
+    --white-opacity-2: rgb(255, 255, 255, 0.3);
+    --purple-illusion-opacity-1: rgb(177, 170, 255, 0.6);
+    --purple-illusion-opacity-2: rgb(177, 170, 255, 0.4);
+    --purple-illusion-opacity-3: rgb(177, 170, 255, 0.2);
+    --lavander-opacity-1: rgb(228, 226, 255, 0.8);
+    --photos-background-color: rgb(0, 0, 0, 0.1);
+    /* Solid HEX colors of the opacities */
+    --purple-illusion-20percent: #efeeff;
+    --purple-illusion-40percent: #dfddff;
+    --purple-illusion-60percent: #d0ccff;
+    --lavander-80percent: #e9e8ff;
+    /* Font family */
+    --aicura-logo-font: "Inter", sans-serif;
+    /* Font weights */
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    /* Font sizes */
+    --font-size-1: 180px;
+    --font-size-2: 96px;
+    --font-size-3: 60px;
+    --font-size-4: 48px;
+    --font-size-5: 32px;
+    --font-size-6: 24px;
+    --font-size-7: 18px;
+    --font-size-8: 16px;
+    /* Border widths */
+    --borders-width: 1.35px;
+    /* Border radiuses */
+    --border-radius-1: 30px;
+    --border-radius-2: 18px;
+}
