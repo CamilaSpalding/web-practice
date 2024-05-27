@@ -1,0 +1,35 @@
+/* ROTAR ICONO EN LOS BOTONES */
+
+.send-icon-wrapper img {
+    transition: 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.send-message-btn:hover .send-icon-wrapper img {
+    transform: rotate(45deg); /* Rota el icono 45 grados al pasar el cursor sobre el botón */
+}
+
+
+/* BOTON */
+
+.boton {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color de texto */
+    padding: 15px 32px; /* Espacio alrededor del texto */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como elemento de bloque */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen entre botones */
+    cursor: pointer; /* Cursor */
+    border-radius: 10px; /* Borde redondeado */
+  }
+  
+  .boton:hover {
+    background-color: #45a049; /* Cambiar color de fondo al pasar el cursor */
+  }
+  
+  .boton:active {
+    background-color: #367c39; /* Cambiar color de fondo al hacer clic */
+  }
+  

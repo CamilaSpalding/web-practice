@@ -123,9 +123,10 @@ body {
     border: var(--borders-width) solid var(--black) ;
     border-radius: var(--border-radius-1);
     background-color: transparent;
+    cursor: pointer;
 }
 
-.log-in-btn {
+/* .log-in-btn {
     width: 106px;
     height: 40px;
     display: flex;
@@ -135,16 +136,34 @@ body {
     border-radius: var(--border-radius-1);
     background-color: transparent;
     padding: 8px;
+    cursor: pointer;
+} */
+
+.log-in-btn {
+    text-decoration: none;
+    width: 106px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    padding-left: 16px;
+    background-color: transparent;
+    border: var(--borders-width) solid var(--black) ;
+    border-radius: var(--border-radius-1);
+    color: var(--black);
+    font-size: var(--font-size-8);
+    font-weight: 400;
 }
 
-.log-in-btn>a {
+/* .log-in-btn>a {
     padding-left: 8px;
     text-decoration: none;
     color: var(--black);
     font-size: var(--font-size-8);
     font-family: var(--aicura-logo-font);
     font-weight: 400;
-}
+} */
 
 .log-in-icon-wrapper {
     width: 24px;
@@ -155,6 +174,16 @@ body {
     align-items: center;
     border-radius: var(--border-radius-1);
 }
+
+.log-in-icon-wrapper img {
+    transition: 0.15s ease-in-out;
+}
+
+.log-in-btn:hover .log-in-icon-wrapper img {
+    transform: rotate(45deg);
+}
+
+
 
 /* MAIN PAGE DESIGN */
 
@@ -258,6 +287,9 @@ body {
     display: flex;
     gap: 12px;
     padding: 20px;
+    font-size: var(--font-size-8);
+    font-weight: var(--font-weight-regular);
+    color: var(--black);
 }
 
 .user-message {
@@ -271,6 +303,10 @@ body {
     border: none;
     border-radius: var(--border-radius-1);
     background-color: var(--white-smoke);
+    padding: 20px;
+    font-size: var(--font-size-8);
+    font-weight: var(--font-weight-regular);
+    color: var(--black);
 }
 
 .form-btns {
@@ -314,6 +350,7 @@ body {
     border: none;
     border-radius: var(--border-radius-1);
     padding: 8px;
+    cursor: pointer;
 }
 
 .send-message-btn span {
@@ -336,6 +373,11 @@ body {
 
 .send-icon-wrapper img {
     width: 12px;
+    transition: 0.15s ease-in-out;
+}
+
+.send-message-btn:hover .send-icon-wrapper img {
+    transform: rotate(45deg);
 }
 
 
