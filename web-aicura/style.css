@@ -191,8 +191,11 @@ body {
 
 /* MAIN PAGE: CONTACT PANNEL DESIGN */
 
-.contact-section {
+.contact-section-wrapper {
     height: 625px;
+}
+
+.contact-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,13 +205,14 @@ body {
     font-size: var(--font-size-1);
     color: var(--black);
     font-weight: var(--font-weight-semibold);
-    margin-bottom: 36px;
 }
 
 .form-wrapper {
+    width: 82% /* 1098px */;
     display: flex;
     flex-direction: column;
     gap: 36px;
+
 }
 
 .form-group {
@@ -216,18 +220,49 @@ body {
     gap: 12px;
 }
 
+.form-group label {
+    position: absolute;
+    font-weight: var(--font-weight-regular);
+    color: var(--gray);
+}
+
 .user-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .user-contact-input {
+    display: flex;
+    align-items: center;
+}
+
+.user-contact-info label {
+    padding: 20px;
+}
+
+.user-contact-input input {
+    height: 59px;
+    border: none;
+    border-radius: var(--border-radius-1);
+    background-color: var(--white-smoke);
+    display: flex;
+    gap: 12px;
 }
 
 .user-message {
 }
 
+.user-message textarea {
+    border: none;
+    border-radius: var(--border-radius-1);
+    background-color: var(--white-smoke);
+}
+
 .form-btns {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .aicura-contact-info {
@@ -255,6 +290,35 @@ body {
     color: var(--black);
     cursor: text;
 }
+
+.send-message-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--purple-illusion);
+    border: none;
+    border-radius: var(--border-radius-1);
+    padding: 8px;
+}
+
+.send-message-btn span {
+    padding-left: 8px;
+    color: var(--black);
+    font-size: var(--font-size-8);
+    font-family: var(--aicura-logo-font);
+    font-weight: 400;
+}
+
+.send-icon-wrapper {
+    width: 36px;
+    height: 36px;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* FOOTER DESIGN */
