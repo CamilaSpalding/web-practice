@@ -15,31 +15,6 @@
 }
 /* --------- */
 
-
-/* BOTON */
-
-.boton {
-  background-color: #4CAF50; /* Color de fondo */
-  border: none; /* Sin borde */
-  color: white; /* Color de texto */
-  padding: 15px 32px; /* Espacio alrededor del texto */
-  text-align: center; /* Alineación del texto */
-  text-decoration: none; /* Sin subrayado */
-  display: inline-block; /* Mostrar como elemento de bloque */
-  font-size: 16px; /* Tamaño de fuente */
-  margin: 4px 2px; /* Margen entre botones */
-  cursor: pointer; /* Cursor */
-  border-radius: 10px; /* Borde redondeado */
-}
-  
-.boton:hover {
-  background-color: #45a049; /* Cambiar color de fondo al pasar el cursor */
-}
-  
-.boton:active {
-  background-color: #367c39; /* Cambiar color de fondo al hacer clic */
-}
-/* --------- */
   
 
 /* BARRA DE BUSQUEDA ANIMADA 1 - BOTON DE SEARCH */
@@ -129,7 +104,7 @@
 
 
 /* BARRA DE BUSQUEDA ANIMADA 2 - BOTON DE SEARCH */
-.search-bar-container {
+/* .search-bar-container {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -190,6 +165,69 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
   font-size: 16px;
-}
+} */
 
 /* --------- */
+
+
+
+/* BOTON DE BUSQUEDA - DROPDOWN DE LA BARRA DE BUSQUEDA */
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-bar-search-menu {
+  position: relative;
+}
+
+.nav-bar-search-btn img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.nav-bar-dropdown-search-menu-wrapper {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 100%;
+  max-width: 500px;
+  display: none;
+}
+
+.nav-bar-dropdown-search-menu {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.search-bar-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon,
+.clear-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon img,
+.clear-icon img {
+  width: 12px;
+}
+
+.search-bar-wrapper input {
+  flex: 1;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* ---------- */

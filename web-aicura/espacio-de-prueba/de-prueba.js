@@ -24,7 +24,7 @@ toggleSearch(); */
 
 
 /* BARRA DE BUSQUEDA ANIMADA 2 - BOTON DE SEARCH */
-let search = document.querySelector('.search');
+/* let search = document.querySelector('.search');
 let clear = document.querySelector('.clear')
 
 search.onclick = function() {
@@ -33,4 +33,18 @@ search.onclick = function() {
 
 clear.onclick = function() {
     document.getElementById('search').value = '';
+} */
+
+
+
+
+/* BOTON DE BUSQUEDA - DROPDOWN DE LA BARRA DE BUSQUEDA */
+function toggleDropdown() {
+    const dropdown = document.getElementById('dropdownMenu');
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
+function clearSearch() {
+    const searchInput = document.getElementById('searchInput');
+    searchInput.value = '';
 }

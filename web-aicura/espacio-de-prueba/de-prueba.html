@@ -19,10 +19,6 @@
     <!---------->
 
 
-    <!-- BOTON -->
-    <button class="boton">Haz clic aquí</button>
-    <!---------->
-
 
     <!-- BARRA DE BUSQUEDA ANIMADA 1 - BOTON DE SEARCH-->
     <div class="container">
@@ -67,8 +63,42 @@
     <!---------->
 
 
+    <!-- BOTON DE BUSQUEDA - DROPDOWN DE LA BARRA DE BUSQUEDA -->
+    <nav class="nav-bar">
+        <div class="nav-bar-search-menu">
+            <a href="#search" role="button" class="nav-bar-search-btn" onclick="toggleDropdown()">
+                <img src="./assets/icons/search-icon.svg" alt="Search Icon">
+            </a>
 
-    <script src="./de-prueba.js"></script>
+            <div class="nav-bar-dropdown-search-menu-wrapper">
+                <div class="nav-bar-dropdown-search-menu" id="dropdownMenu">
+                    <form action="search" method="get" class="search-bar-wrapper">
+                        <button type="submit" class="search-icon" aria-label="Search icon">
+                            <img src="./assets/icons/search-icon.svg" alt="Search Icon">
+                        </button>
+                        
+                        <input type="text" placeholder="Type here" name="query" id="searchInput">
+
+                        <button type="button" class="clear-icon" aria-label="Clear icon" onclick="clearSearch()">
+                            <img src="./assets/icons/x-icon.svg" alt="Clear Icon">
+                        </button>
+                    </form>
+
+                    <div class="nav-bar-search-results">
+                        <!-- Aquí se mostrarán los resultados de búsqueda -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!---------->
+
+
+
+
+
+
+    <script src="de-prueba.js"></script>
     
 </body>
 </html>
