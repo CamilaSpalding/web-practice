@@ -126,6 +126,17 @@ body {
     cursor: pointer;
 }
 
+/* Shearch button - dropdown search bar */
+
+.nav-bar-dropdown-search-menu {
+    margin: /* el valor del alto del nav + el margen entre el nav y el main */;
+    overflow: hidden;
+    visibility: hidden;
+    background-color: var(--white);
+}
+
+/* ----- */
+
 .log-in-btn {
     text-decoration: none;
     width: 106px;
@@ -160,7 +171,6 @@ body {
 .log-in-btn:hover .log-in-icon-wrapper img {
     transform: rotate(45deg);
 }
-
 
 
 /* MAIN PAGE DESIGN */

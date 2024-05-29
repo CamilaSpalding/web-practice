@@ -13,13 +13,62 @@
     <button class="send-message-btn rotate-icon" type="submit">
         <span>Send a Message</span>
         <div class="send-icon-wrapper">
-            <img src="./assets/icons/arrow-icon-2.svg" alt="Log In Icon">
+            <img src="/web-aicura/assets/icons/arrow-icon-2.svg" alt="Log In Icon">
         </div>
     </button>
+    <!---------->
+
 
     <!-- BOTON -->
     <button class="boton">Haz clic aquí</button>
+    <!---------->
 
+
+    <!-- BARRA DE BUSQUEDA ANIMADA 1 - BOTON DE SEARCH-->
+    <div class="container">
+        <form action="" class="search-form">
+            <input type="text" placeholder="Type to search" class="search-input" name="" id="">
+
+            <div class="search-button">
+                <img src="/web-aicura/assets/icons/search-icon.svg" class="search-icon" alt="">
+                <img src="/web-aicura/assets/icons/x-icon.svg" class="search-close" alt="">
+            </div>
+        </form>
+    </div>
+    <!---------->
+
+
+    <!-- BARRA DE BUSQUEDA ANIMADA 2 - BOTON DE SEARCH-->
+    <div class="search-bar-container">
+        <div class="container">
+            <div class="icon">
+                <img src="/web-aicura/assets/icons/search-icon.svg" class="search" alt="">
+            </div>
+
+            <div class="input">
+                <input type="text" placeholder="Search" name="" id="search">
+                <img src="/web-aicura/assets/icons/x-icon.svg" class="clear" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let search = document.querySelector('.search');
+        let clear = document.querySelector('.clear')
+
+        search.onclick = function() {
+            document.querySelector('.container').classList.toggle('active');
+        } 
+
+        clear.onclick = function() {
+            document.getElementById('search').value = '';
+        } 
+    </script>
+    <!---------->
+
+
+
+    <script src="./de-prueba.js"></script>
     
 </body>
 </html>
