@@ -8,7 +8,7 @@ The repository is organized into subfolders, with each subfolder containing the 
 
 ## List of Projects
 - [AiCURA Project](./web-aicura/README.md)
-- [My Original: BLOCKBUSTER Project](./web-blockbuster/README.md)
+- [BLOCKBUSTER Project](./web-blockbuster/README.md)
 
 ## How to Use This Repository
 Feel free to explore the code and see how each design has been translated into a working website. Each project folder contains all the necessary files, along with a README.md file that provides details about the project and any specific instructions.

@@ -5,7 +5,7 @@ This project is based on a design by Victoria Fardzinova. It is a web developmen
 
 ## Designer Information
 - **Designer:** Victoria Fardzinova
-- **Behance Profile:** [Victoria Fardzinova on Behance](https://www.behance.net/victoriafardzinova)
+- **Behance Profile:** [Victoria Fardzinova on Behance](https://www.behance.net/victoria_fardzinova)
 
 ## Conditions
 - Full credit must be given to Victoria Fardzinova for the original design in any presentations or publications.
