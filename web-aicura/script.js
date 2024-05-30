@@ -3,7 +3,7 @@ const search = document.getElementById('dropdownSearchMenu'),
     searchClearBtn = document.getElementById('clearBtn'),
     searchCloseBtn = document.getElementById('closeBtn'),
     searchInput = document.getElementById('searchInput'),
-    searchIcon = document.querySelector('.search-icon-img');
+    searchIcon = document.querySelector('.search-icon img');
 
 
 /* Mostrar el earch */
@@ -37,6 +37,8 @@ const updateSearchIcon = () => {
     } else {
         searchIcon.src = './assets/icons/black-search-icon.svg';
     }
-};
+}
+
+
 
 /* Próxima modificaci[on: Agregarle una transición al cambio de color de los iconos */

@@ -189,6 +189,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .search-bar-input {
@@ -398,6 +399,7 @@ body {
     font-size: var(--font-size-8);
     font-weight: var(--font-weight-regular);
     color: var(--black);
+    outline: none;
 }
 
 .user-message {
