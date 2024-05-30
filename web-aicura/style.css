@@ -440,9 +440,7 @@ body {
 .input-error input {
     border: 2px solid var(--invalid-red) !important;
 }
-
 /* -------- */
-
 
 .form-btns {
     display: flex;
