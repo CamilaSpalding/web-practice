@@ -43,21 +43,21 @@
 
             <!-- Shearch button - dropdown search bar -->
             <div class="nav-bar-search-menu">
-                <a href="#search" role="button" class="nav-bar-search-btn">
+                <a href="#search" role="button" class="nav-bar-search-btn" id="searchBtn">
                     <img src="./assets/icons/search-icon.svg" alt="Search Icon">
                 </a>
 
-                <div class="nav-bar-dropdown-search-menu-wrapper">
+                <div class="nav-bar-dropdown-search-menu-wrapper" id="dropdownSearchMenu">
                     <div class="nav-bar-dropdown-search-menu">
-                        <form action="search" method="get" class="search-bar">
-                            <button type="submit" class="search-icon" aria-label="Search icon">
+                        <form action="search" method="get" class="search-bar" autocomplete="off">
+                            <button type="submit" class="search-icon" aria-label="Search icon" id="inputSearchBtn">
                                 <!-- boton para buscar (misma función que 'enter') -->
                                 <img src="./assets/icons/gray-search-icon.svg" alt="Search Icon">
                             </button>
 
-                            <input type="text" placeholder="Search" name="" id="" class="search-bar-input">
+                            <input type="text" placeholder="Search" name="" id="searchInput" class="search-bar-input">
 
-                            <button type="button" class="clear-icon" aria-label="Clear icon">
+                            <button type="button" class="clear-icon" aria-label="Clear icon" id="clearBtn">
                                 <!-- boton para borrar la busqueda -->
                                 <img src="./assets/icons/x-icon.svg" alt="Clear Icon">
                             </button>
@@ -66,6 +66,11 @@
                         <div class="nav-bar-search-results">
 
                         </div>
+
+                        <button type="button" class="close-icon" aria-label="Close icon" id="closeBtn">
+                            <!-- boton para cerrar la barra de busqueda -->
+                            <img src="./assets/icons/x-icon.svg" alt="Close Icon">
+                        </button>
                     </div>
                 </div>
             </div>
@@ -170,17 +175,17 @@
                         <div class="user-contact-info">
                             <div class="user-contact-input">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" id="name" required>    
+                                <input type="text" name="name" id="name" autocomplete="on" required>    
                             </div>
         
                             <div class="user-contact-input">
                                 <label for="phone">Phone</label>
-                                <input type="tel" id="phone" name="phone" required>
+                                <input type="tel" id="phone" name="phone" autocomplete="on" required>
                             </div>
                 
                             <div class="user-contact-input">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" required>
+                                <input type="email" id="email" name="email" autocomplete="on" required>
                             </div>
                         </div>
 
