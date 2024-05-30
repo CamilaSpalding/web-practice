@@ -61,6 +61,13 @@ updateSearchUI();
 
 
 
+/* SCRIPT PARA EL ENVÍO DEL FORMULARIO DE CONTACTO */
+
+/* =================================== */
+
+
+
+
 /* SCRIPT PARA LOS VALORES INVALIDOS EN EL FORMULARIO DE CONTACTO */
-document.getElementById('contactForm')
+
 /* =================================== */
