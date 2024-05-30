@@ -38,3 +38,5 @@ const updateSearchIcon = () => {
         searchIcon.src = './assets/icons/black-search-icon.svg';
     }
 };
+
+/* Próxima modificaci[on: Agregarle una transición al cambio de color de los iconos */
