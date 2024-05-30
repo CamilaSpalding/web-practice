@@ -100,7 +100,7 @@ body {
     padding: 10.5px 16px;
 }
 
-.menu-list-item>a {
+.menu-list-item a {
     text-decoration: none;
     color: var(--black);
     font-size: var(--font-size-8);
@@ -190,15 +190,6 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-
-.search-icon img {
-    transition: opacity 0.3s ease;
-    opacity: 1;
-}
-
-.search-icon img.transitioning {
-    opacity: 0;
 }
 
 .search-bar-input {
@@ -380,6 +371,7 @@ body {
     color: var(--gray);
     padding: 20px;
     pointer-events: none; /* AYUDA DE CHAP GPT */
+    font-size: var(--font-size-8);
 }
 
 .user-contact-info {
@@ -400,8 +392,8 @@ body {
     width: 100%; /* AYUDA DE CHAP GPT */
     height: 59px;
     border: none;
-    border-radius: var(--border-radius-1);
     background-color: var(--white-smoke);
+    border-radius: var(--border-radius-1);
     display: flex;
     gap: 12px;
     padding: 20px;
@@ -426,7 +418,31 @@ body {
     font-size: var(--font-size-8);
     font-weight: var(--font-weight-regular);
     color: var(--black);
+    outline: none;
 }
+
+.user-contact-info input:hover,
+.user-contact-input input:focus,
+.user-message textarea:hover,
+.user-message textarea:focus {
+    border: 2px solid var(--purple-illusion);
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+    display: none; /* Displey:flex ? */
+    color: var(--invalid-red);
+    font-size: var(--font-size-8);
+    margin-top: 4px; /* Displey:flex ? Padding ? */
+}
+
+/* Muestra el borde rojo cuando hay un error */
+.input-error input {
+    border: 2px solid var(--invalid-red) !important;
+}
+
+/* -------- */
+
 
 .form-btns {
     display: flex;

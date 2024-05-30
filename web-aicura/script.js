@@ -58,3 +58,9 @@ const updateSearchButton = () => {
 updateSearchUI();
 
 /* =================================== */
+
+
+
+/* SCRIPT PARA LOS VALORES INVALIDOS EN EL FORMULARIO DE CONTACTO */
+
+/* =================================== */
