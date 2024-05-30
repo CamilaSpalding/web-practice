@@ -48,3 +48,31 @@ function clearSearch() {
     const searchInput = document.getElementById('searchInput');
     searchInput.value = '';
 }
+
+
+
+/* OTRA OPCIÓN PARA EL CAMBIO DE ICONO DEL BOTON SEARCH DE LA BARRA DE BUSQUEDA (AICURA) */
+
+/* Función para actualizar el ícono de búsqueda */
+const updateSearchIcon = () => {
+    const inputIsEmpty = searchInput.value.trim() === '';
+    const iconIsActive = searchIcon.classList.contains('active');
+
+    if (inputIsEmpty && iconIsActive) {
+        changeIconSrc('./assets/icons/gray-search-icon.svg'); // Ícono gris
+        searchIcon.classList.remove('active');
+    } else if (!inputIsEmpty && !iconIsActive) {
+        changeIconSrc('./assets/icons/black-search-icon.svg'); // Ícono negro
+        searchIcon.classList.add('active');
+    }
+};
+
+/* Función para cambiar el src del ícono con transición */
+const changeIconSrc = (newSrc) => {
+    searchIcon.classList.add('transitioning');
+    setTimeout(() => {
+        searchIcon.src = newSrc;
+        searchIcon.classList.remove('transitioning');
+    }, 300); // Tiempo de transición en milisegundos
+};
+/* ------------------------------------ */

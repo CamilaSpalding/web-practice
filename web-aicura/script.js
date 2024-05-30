@@ -26,19 +26,15 @@ searchClearBtn.addEventListener('click', () => {
 
 /* Cambiar el ícono de búsqueda cuando el usuario tipee */
 searchInput.addEventListener('input', () => {
-    console.log('Input event detected');
     updateSearchIcon();
 });
+
 
 /* Función para actualizar el ícono de búsqueda */
 const updateSearchIcon = () => {
     if (searchInput.value.trim() === '') {
-        searchIcon.src = './assets/icons/gray-search-icon.svg';
+        searchIcon.src = './assets/icons/gray-search-icon.svg'; // Ícono gris
     } else {
-        searchIcon.src = './assets/icons/black-search-icon.svg';
+        searchIcon.src = './assets/icons/black-search-icon.svg'; // Ícono negro
     }
-}
-
-
-
-/* Próxima modificaci[on: Agregarle una transición al cambio de color de los iconos */
+};
