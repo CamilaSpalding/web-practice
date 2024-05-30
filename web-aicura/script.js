@@ -1,3 +1,5 @@
+/* SCRIPT PARA LA BARRA DE BUSQUEDA/SEARCH */
+
 const search = document.getElementById('dropdownSearchMenu'),
     searchBtn = document.getElementById('searchBtn'),
     searchClearBtn = document.getElementById('clearBtn'),
@@ -21,20 +23,38 @@ searchCloseBtn.addEventListener('click', () => {
 /* Resetear o borrar lo escrito en el search input */
 searchClearBtn.addEventListener('click', () => {
     searchInput.value = '';
+    updateSearchUI(); // Actualiza la interfaz de búsqueda
 })
 
 
-/* Cambiar el ícono de búsqueda cuando el usuario tipee */
+/* Cambia el ícono de búsqueda cuando el usuario tipee */
 searchInput.addEventListener('input', () => {
-    updateSearchIcon();
+    updateSearchUI(); // Actualiza la interfaz de búsqueda
+
 });
 
 
 /* Función para actualizar el ícono de búsqueda */
-const updateSearchIcon = () => {
+const updateSearchUI  = () => {
     if (searchInput.value.trim() === '') {
         searchIcon.src = './assets/icons/gray-search-icon.svg'; // Ícono gris
+        inputSearchBtn.disabled = true; // Desactiva el botón si el input está vacío
     } else {
         searchIcon.src = './assets/icons/black-search-icon.svg'; // Ícono negro
+        inputSearchBtn.disabled = false; // Activa el botón si hay texto en el input
     }
 };
+
+/* Función para actualizar el estado del botón de búsqueda */
+const updateSearchButton = () => {
+    if (searchInput.value.trim() === '') {
+        inputSearchBtn.disabled = true; // Desactiva el botón si el input está vacío
+    } else {
+        inputSearchBtn.disabled = false; // Activa el botón si hay texto en el input
+    }
+};
+
+/* Inicializa el estado del botón de búsqueda al cargar la página */
+updateSearchUI();
+
+/* =================================== */
