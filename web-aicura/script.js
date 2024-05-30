@@ -13,3 +13,9 @@ searchBtn.addEventListener('click', (/* event */) => {
 searchCloseBtn.addEventListener('click', () => {
     search.classList.remove('show-search')
 });
+
+
+/* Clear search input */
+searchClearBtn.addEventListener('click', () => {
+    searchInput.value = '';
+})
