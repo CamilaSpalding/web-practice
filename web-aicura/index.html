@@ -37,13 +37,13 @@
         </nav>
 
         <div class="action-btns">
-            <!-- Shearch button - dropdown search bar -->
+            <!-- boton de Shearch - dropdown barra de search -->
             <div class="nav-bar-search-menu">
                 <a href="#search" role="button" class="nav-bar-search-btn" id="searchBtn">
                     <img src="./assets/icons/search-icon.svg" alt="Search Icon">
                 </a>
 
-                <div class="nav-bar-dropdown-search-menu-wrapper" id="dropdownSearchMenu">
+                <div class="nav-bar-dropdown-search-menu-background" id="dropdownSearchMenu">
                     <div class="nav-bar-dropdown-search-menu">
                         <form action="search" method="get" class="search-bar" autocomplete="off">
                             <button type="submit" class="search-icon" aria-label="Search icon" id="inputSearchBtn">
@@ -72,12 +72,52 @@
             </div>
             <!--------->
 
-            <a href="login.html" class="log-in-btn">
-                Log In
-                <div class="log-in-icon-wrapper">
-                    <img src="./assets/icons/arrow-icon-2.svg" alt="Log In Icon">
+            <!-- Boton de login - abre página de login -->
+            <div class="log-in" id="logIn">
+                <a href="#login" role="button" class="log-in-btn">
+                    Log In
+                    <div class="log-in-icon-wrapper">
+                        <img src="./assets/icons/arrow-icon-2.svg" alt="Log In Icon">
+                    </div>
+                </a>
+
+                <div class="log-in-dropdown-background">
+                    <div class="log-in-dropdown-wrapper">
+                        <form action="" class="log-in-form">
+                            <h2 class="log-in-title">Log In</h2>
+
+                            <div class="log-in-group">
+                                <div class="log-in-input-group">
+                                    <label for="logInEmail" class="login-label">Email</label>
+                                    <input type="email" placeholder="Write your email" name="logInEmail" id="logInEmail" class="log-in-input">
+                                </div>
+
+                                <div class="password-input-group">
+                                    <label for="logInPassword" class="login-label">Password</label>
+                                    <input type="password" placeholder="Enter your password" name="logInPassword" id="logInPassword" class="password-input">
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="login-signup">
+                                    You do not have an account?
+                                    <a href="#signup">Sign Up</a>
+                                </p>
+
+                                <a href="#" class="login-forgot">
+                                    You forgot your password?
+                                </a>
+
+                                <button type="submit" class="log-in-form-btn">
+                                    Log In
+                                </button>
+                            </div>
+                        </form>
+
+                        <img src="./assets/icons/x-icon.svg" class="log-in-form-close-btn" id="logInFormCloseBtn" alt="">
+                    </div>
                 </div>
-            </a>
+            </div>
         </div>
     </header>
 
@@ -86,42 +126,44 @@
 
     <main class="main-page">
         <!-- PRIMARY PANNEL: homepage primary section -->
-        <section class="homepage-section main-section">
+        <section class="main-section">
             <div class="ms-inner-section">
                 <div class="ms-is-module">
-                    <!--  -->
-                    <div class="ms-is-m-component">
+                    <!-- COMPONENTE: Que es la empresa -->
+                    <div class="ms-is-m-main-component">
                         <h1>Ai-Powered EBM Health Center</h1>
                         <p>Blending technology & care for better treatment results</p>
                     </div>
 
-                    <button class="ms-is-module-component">
+                    <!-- COMPONENTE: Boton para pedir turno -->
+                    <button class="ms-is-m-appointment-btn">
                         <span>Make an Appointment</span>
                         <img src="./assets/icons/arrow-icon-2.svg" alt="arrow icon">
                     </button>
                 </div>
 
                 <div class="ms-is-module">
-                    <figure class="ms-is-module-content">
+                    <!-- COMPONENTE: Imagen de burbujas -->
+                    <figure class="ms-is-m-image-component">
                         <img src="./assets/images/img-bubbles-1.png" alt="Bubbles">
                     </figure>
-    
-                    <div class="ms-is-module-content">
-                        <div class="">
-                            <h2>First visit discount: save 15% in May</h2>
-                            <img src="./assets/icons/arrow-icon-2.svg" alt="arrow icon">
-                        </div>
-        
-                        <div class="">
-                            <span>Healthcare</span>
-                            <span>SpecialOffer</span>
+
+                    <!-- COMPONENTE: Descuento de primer visita -->
+                    <div class="ms-is-m-discount-component">
+                        <h2>First visit discount: save 15% in May</h2>
+
+                        <img src="./assets/icons/arrow-icon-2.svg" alt="arrow icon">
+
+                        <div class="dc-keyword-pill-group">
+                            <span class="keyword-pill">Healthcare</span>
+                            <span class="keyword-pill">SpecialOffer</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="ms-inner-section">
-                <div class="">
+                <div class="ms-is-">
                     <div class="">
                         <h2>Over 80 highly qualified specialists</h2>
                         <img src="./assets/icons/arrow-icon-2.svg" alt="arrow icon">

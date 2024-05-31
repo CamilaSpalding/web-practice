@@ -56,7 +56,6 @@ const updateSearchButton = () => {
 
 /* Inicializa el estado del botón de búsqueda al cargar la página */
 updateSearchUI();
-
 /* =================================== */
 
 
