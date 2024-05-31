@@ -114,17 +114,6 @@ body {
     gap: 4px;
 }
 
-/* .search-btn {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: var(--borders-width) solid var(--black) ;
-    border-radius: var(--border-radius-1);
-    background-color: transparent;
-    cursor: pointer;
-} */
 
 /* Shearch button - dropdown search bar */
 
@@ -164,7 +153,7 @@ body {
     top: 92px;
     left: 4%;
     width: 92%;
-    padding: 19px 24px;
+    padding: 24px;
     background-color: var(--white);
     border-radius: var(--border-radius-1);
     transform: translateY(-20px);
@@ -233,7 +222,7 @@ body {
     height: 40px;
     position: absolute;
     top: -62px;
-    right: 24px /* 134px */;
+    right: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,8 +333,9 @@ body {
     flex-direction: column;
     background-color: var(--white);
     border-radius: var(--border-radius-1);
-    padding: 60px;
-    padding-top: 80px;
+    padding: 0 60px;
+    padding-top: 92px;
+    padding-bottom: 78px;
     transform: translateY(-20px);
     transition: transform 0.5s;
 }
@@ -369,10 +359,14 @@ body {
     width: 14px;
 }
 
+.log-in-form-container {
+    width: 100%;
+}
+
 .log-in-title {
     width: 100%;
     text-align: center;
-    font-size: var(--font-size-4);
+    font-size: var(--font-size-3);
     color: var(--black);
     margin-bottom: 24px;
 }
@@ -386,8 +380,14 @@ body {
 }
 
 .log-in-group {
+    width: 100%;
     gap: 24px;
-    margin-bottom: 28px;
+    margin-bottom: 30px;
+}
+
+.log-in-input-group,
+.password-input-group-wrapper {
+    width: 100%;
 }
 
 .password-input-group {
@@ -418,7 +418,7 @@ body {
 
 .log-in-input,
 .password-input {
-    width: 300px;
+    width: 100%;
     height: 40px;
     border-radius: var(--border-radius-1);
     border: var(--borders-width) solid transparent;
@@ -448,9 +448,10 @@ body {
 }
 
 .log-in-form-btn {
-    width: 300px;
-    height: 52px;
+    width: 164px;
+    height: 56px;
     margin-bottom: 36px;
+    padding-left: 18px;
     border: none;
     background-color: var(--purple-illusion);
     font-family: var(--aicura-logo-font);
@@ -465,13 +466,13 @@ body {
 }
 
 .log-in-form-btn .log-in-icon-wrapper {
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
     background-color: var(--white);
 }
 
 .log-in-form-btn .log-in-icon-wrapper img {
-    width: 12px;
+    width: 13px;
 }
 
 .sign-up-group {
