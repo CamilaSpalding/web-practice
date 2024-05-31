@@ -3,7 +3,7 @@
 const search = document.getElementById('dropdownSearchMenu'),
     searchBtn = document.getElementById('searchBtn'),
     searchClearBtn = document.getElementById('clearBtn'),
-    searchCloseBtn = document.getElementById('closeBtn'),
+    searchCloseBtn = document.getElementById('searchCloseBtn'),
     searchInput = document.getElementById('searchInput'),
     searchIcon = document.querySelector('.search-icon img');
 

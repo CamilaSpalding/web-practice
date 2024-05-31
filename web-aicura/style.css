@@ -295,6 +295,10 @@ body {
     background-color: var(--purple-illusion);
 }
 
+.log-in-btn .log-in-icon-wrapper img {
+    width: 10px;
+}
+
 .log-in-btn .log-in-icon-wrapper img,
 .log-in-form-btn .log-in-icon-wrapper img {
     transition: 0.15s ease-in-out;
@@ -325,7 +329,35 @@ body {
     transition: transform 0.5s;
 }
 
+.log-in-form-close-btn {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    background-color: var(--purple-illusion-20percent);
+}
+
+.log-in-form-close-icon-wrapper {
+    width: ;
+    height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.log-in-form-close-icon-wrapper img{
+    width: 16px;
+}
+
 .log-in-title {
+    width: 100%;
+    text-align: center;
     font-size: var(--font-size-4);
     color: var(--black);
     margin-bottom: 24px;
@@ -339,12 +371,9 @@ body {
     align-items: center;
 }
 
-.log-in-form {
-    gap: 24px;
-}
-
 .log-in-group {
     gap: 24px;
+    margin-bottom: 28px;
 }
 
 .password-input-group {
@@ -407,12 +436,18 @@ body {
 .log-in-form-btn {
     width: 300px;
     height: 52px;
+    margin-bottom: 36px;
     border: none;
     background-color: var(--purple-illusion);
     font-family: var(--aicura-logo-font);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-7);
     cursor: pointer;
+    transition: box-shadow .4s;
+}
+
+.log-in-form-btn:active {
+    background-color: var(--lavander-blue);
 }
 
 .log-in-form-btn .log-in-icon-wrapper {
@@ -435,13 +470,13 @@ body {
     font-size: var(--font-size-8);
 }
 
+.sign-up p {
+    color: var(--black);
+}
+
 .sign-up a {
     text-decoration: none;
     color: var(--moody-blue);
-}
-
-.log-in-form-close-btn {
-    position: absolute ;
 }
 
 /* Show log in */

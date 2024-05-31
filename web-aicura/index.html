@@ -63,7 +63,7 @@
 
                         </div>
 
-                        <button type="button" class="close-icon" aria-label="Close icon" id="closeBtn">
+                        <button type="button" class="close-icon" aria-label="Close icon" id="searchCloseBtn">
                             <!-- boton para cerrar la barra de busqueda -->
                             <img src="./assets/icons/x-icon.svg" alt="Close Icon">
                         </button>
@@ -83,43 +83,49 @@
 
                 <div class="log-in-dropdown-background">
                     <div class="log-in-dropdown-wrapper">
-                        <h2 class="log-in-title">Log In</h2>
+                        <button type="button" class="log-in-form-close-btn" id="logInFormCloseBtn">
+                            <div class="log-in-form-close-icon-wrapper">
+                                <img src="./assets/icons/x-icon.svg" id="logInFormCloseIcon" alt="Close Icon">
+                            </div>
+                        </button>
 
-                        <form action="" class="log-in-form">
-                            <div class="log-in-group">
-                                <div class="log-in-input-group">
-                                    <label for="logInEmail" class="log-in-label">Email</label>
-                                    <input type="email" placeholder="Write your email" name="logInEmail" id="logInEmail" class="log-in-input">
-                                </div>
+                        <div class="log-in-form-container">
+                            <h2 class="log-in-title">Log In</h2>
 
-                                <div class="password-input-group-wrapper">
-                                    <div class="password-input-group">
-                                        <label for="logInPassword" class="log-in-label">Password</label>
-                                        <input type="password" placeholder="Enter your password" name="logInPassword" id="logInPassword" class="password-input">
+                            <form action="" class="log-in-form">
+                                <div class="log-in-group">
+                                    <div class="log-in-input-group">
+                                        <label for="logInEmail" class="log-in-label">Email</label>
+                                        <input type="email" placeholder="Write your email" name="logInEmail" id="logInEmail" class="log-in-input">
                                     </div>
 
-                                    <a href="#" class="forgot-password">
-                                        Forgot your password?
-                                    </a>
+                                    <div class="password-input-group-wrapper">
+                                        <div class="password-input-group">
+                                            <label for="logInPassword" class="log-in-label">Password</label>
+                                            <input type="password" placeholder="Enter your password" name="logInPassword" id="logInPassword" class="password-input">
+                                        </div>
+
+                                        <a href="#" class="forgot-password">
+                                            Forgot your password?
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <button type="submit" class="log-in-form-btn">
-                                Log In
-                                <div class="log-in-icon-wrapper">
-                                    <img src="./assets/icons/arrow-icon-2.svg" alt="Log In Icon">
+                                <button type="submit" class="log-in-form-btn">
+                                    Log In
+                                    <div class="log-in-icon-wrapper">
+                                        <img src="./assets/icons/arrow-icon-2.svg" alt="Log In Icon">
+                                    </div>
+                                </button>
+
+                                <div class="sign-up-group">
+                                    <p class="sign-up">
+                                        You do not have an account?
+                                        <a href="#signup">Sign Up</a>
+                                    </p>
                                 </div>
-                            </button>
-
-                            <div class="sign-up-group">
-                                <p class="sign-up">
-                                    You do not have an account?
-                                    <a href="#signup">Sign Up</a>
-                                </p>
-                            </div>
-                        </form>
-
-                        <img src="./assets/icons/x-icon.svg" class="log-in-form-close-btn" id="logInFormCloseBtn" alt="">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
