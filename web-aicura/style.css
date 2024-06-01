@@ -539,9 +539,26 @@ body {
 }
 
 .main-component {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px;
+    background-color: var(--moody-blue);
+    border-radius: var(--border-radius-1);
+    color: var(--white);
+}
+
+.main-component h1 {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-semibold);
+    line-height: 96px;
+}
+
+.main-component p {
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-regular);
+    line-height: 29px;
 }
 
 .appointment-btn {}
@@ -557,7 +574,7 @@ body {
     background-image: url(./assets/images/img-bubbles-1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: 100%;
     border-radius: var(--border-radius-1);
 }
 
