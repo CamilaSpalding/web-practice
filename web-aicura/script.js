@@ -8,7 +8,7 @@ const search = document.getElementById('dropdownSearchMenu'),
     searchIcon = document.querySelector('.search-icon img');
 
 
-/* Mostrar el earch */
+/* Mostrar el search */
 searchBtn.addEventListener('click', (/* event */) => {
     /* event.preventDefault(); */
     search.classList.add('show-search')
@@ -57,6 +57,15 @@ const updateSearchButton = () => {
 /* Inicializa el estado del botón de búsqueda al cargar la página */
 updateSearchUI();
 /* =================================== */
+
+
+
+/* SCRIPT PARA LA PÁGINA DE LOG IN */
+const logIn = document.getElementById('logIn'),
+    logInBtn = document.getElementById('logInBtn'),
+    logInCloseBtn = document.getElementById('logInFormCloseBtn')
+/* =================================== */
+
 
 
 

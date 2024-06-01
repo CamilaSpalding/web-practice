@@ -143,9 +143,9 @@ body {
     background-color: hsla(259, 73%, 23%, 0.1); 
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: 16px; /* para Safari */
-    /* opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    transition: opacity 0.4s; */
+    transition: opacity 0.4s;
 }
 
 .nav-bar-dropdown-search-menu {
@@ -368,7 +368,7 @@ body {
     text-align: center;
     font-size: var(--font-size-3);
     color: var(--black);
-    margin-bottom: 24px;
+    margin-bottom: 28px;
 }
 
 .log-in-form,
