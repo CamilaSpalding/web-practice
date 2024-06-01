@@ -334,8 +334,8 @@ body {
     background-color: var(--white);
     border-radius: var(--border-radius-1);
     padding: 0 60px;
-    padding-top: 92px;
-    padding-bottom: 78px;
+    padding-top: 86px;
+    padding-bottom: 68px;
     transform: translateY(-20px);
     transition: transform 0.5s;
 }
@@ -353,6 +353,10 @@ body {
     border: 8px solid var(--purple-illusion-20percent);
     border-radius: var(--border-radius-1);
     cursor: pointer;
+}
+
+.log-in-form-close-btn:focus {
+    border-color: var(--purple-illusion-60percent);
 }
 
 .log-in-form-close-btn img{

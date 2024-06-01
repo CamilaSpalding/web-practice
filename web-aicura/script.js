@@ -63,7 +63,18 @@ updateSearchUI();
 /* SCRIPT PARA LA PÁGINA DE LOG IN */
 const logIn = document.getElementById('logIn'),
     logInBtn = document.getElementById('logInBtn'),
-    logInCloseBtn = document.getElementById('logInFormCloseBtn')
+    logInCloseBtn = document.getElementById('logInFormCloseBtn');
+
+
+/* Mostrar el login */
+logInBtn.addEventListener('click', () => {
+    logIn.classList.add('show-log-in');
+});
+
+/* Esconder el login */
+logInCloseBtn.addEventListener('click', () => {
+    logIn.classList.remove('show-log-in');
+});
 /* =================================== */
 
 
