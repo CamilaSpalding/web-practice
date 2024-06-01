@@ -531,12 +531,30 @@ body {
 
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
-.ms-is-m-image-component img {
+.main-section {
+    display: flex;
+    gap: 12px;
+}
+
+.ms-inner-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-component img {
     width: 321px;
 }
 
-.ms-is-m-specialists-component img {
-    height: 681px;
+.ms-inner-section:nth-child(1) {
+    width: 67%;
+}
+
+.specialists-component {
+    width: 33%;
+    padding: 20px;
+    border: none;
+    border-radius: var(--border-radius-1);
+    background-image: url(./assets/images/img-doctor-1-with-background.png);
 }
 /* ============================= */
 
