@@ -566,11 +566,11 @@ body {
 .ms-is-module:nth-child(2) {
     display: flex;
     gap: 12px;
+    height: 295px;
 }
 
 .image-component {
     width: 35.87%;
-    height: 295px;
     background-image: url(./assets/images/img-bubbles-1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -578,59 +578,39 @@ body {
     border-radius: var(--border-radius-1);
 }
 
-.discount-component {
-    width: 64.13%;
-    height: 295px;
-    border-radius: var(--border-radius-1);
-    background-color: var(--lavander-blue);
-    padding: 20px;
-}
-
-.resent-btn {
-    all: unset;
-}
-
+.discount-component,
 .specialists-component {
-    width: 30.65%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    text-align: unset;
     border: none;
     border-radius: var(--border-radius-1);
-    background-image: url(./assets/images/img-doctor-1-with-background.png);
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: var(--aicura-logo-font);
+    background-color: var(--lavander-blue);    font-family: var(--aicura-logo-font);
 }
 
-.specialists-info {
-    width: 75%;
-    height: 100%;
+.discount-component {
+    width: 64.13%;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 
-.specialists-info p {
-    color: var(--black);
-    font-size: var(--font-size-6);
-    font-weight: var(--font-weight-regular);
-}
-
+.dc-keyword-pill-group,
 .sc-keyword-pill-group {
     gap: 4px;
 }
 
+.dc-keyword-pill-group .keyword-pill,
 .sc-keyword-pill-group .keyword-pill {
-    display: inline-block;
+    height: 35px;
     padding: 8px 12px;
+    display: inline-block;
     background-color: var(--white);
     border-radius: var(--border-radius-1);
     margin-top: 4px;
     font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-8);
 }
 
+.dc-b-icon-wrapper,
 .sc-b-icon-wrapper {
     width: 52px;
     height: 52px;
@@ -641,6 +621,7 @@ body {
     border-radius: var(--border-radius-1);
 }
 
+.dc-b-icon-container,
 .sc-b-icon-container {
     width: 36px;
     height: 36px;
@@ -651,9 +632,39 @@ body {
     border-radius: var(--border-radius-1);
 }
 
-.sc-b-icon-wrapper img {
+.dc-b-icon-container img,
+.sc-b-icon-container img {
     width: 12px;
 }
+
+.discount-info,
+.specialists-info {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discount-component p {
+    font-size: var(--font-size-6);
+}
+
+.specialists-component {
+    width: 30.65%;
+    padding: 20px;
+    background-image: url(./assets/images/img-doctor-1-with-background.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.specialists-info p {
+    color: var(--black);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-regular);
+}
+
 
 /* ============================= */
 
