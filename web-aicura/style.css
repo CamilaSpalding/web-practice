@@ -529,6 +529,44 @@ body {
 
 .ms-inner-section:nth-child(1) {
     width: 69.35%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ms-is-module:nth-child(1) {
+    height: 374px;
+}
+
+.main-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.appointment-btn {}
+
+.ms-is-module:nth-child(2) {
+    display: flex;
+    gap: 12px;
+}
+
+.image-component {
+    width: 35.87%;
+    height: 295px;
+    background-image: url(./assets/images/img-bubbles-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border-radius: var(--border-radius-1);
+}
+
+.discount-component {
+    width: 64.13%;
+    height: 295px;
+    border-radius: var(--border-radius-1);
+    background-color: var(--lavander-blue);
+    padding: 20px;
 }
 
 .resent-btn {
