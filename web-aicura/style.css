@@ -518,11 +518,6 @@ body {
     gap: 12px;
 }
 
-.ms-inner-section {
-    display: flex;
-    flex-direction: column;
-}
-
 .image-component img {
     width: 321px;
 }
@@ -536,6 +531,9 @@ body {
 
 .ms-is-module:nth-child(1) {
     height: 374px;
+    display: flex;
+    position: relative;
+    z-index: 1;
 }
 
 .main-component {
@@ -561,7 +559,22 @@ body {
     line-height: 29px;
 }
 
-.appointment-btn {}
+.appointment-btn {
+    height: 52px;
+    padding: 8px;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 12px solid var(--white-smoke);
+    border-radius: var(--border-radius-1);
+
+
+}
+
+
 
 .ms-is-module:nth-child(2) {
     display: flex;
@@ -574,7 +587,7 @@ body {
     background-image: url(./assets/images/img-bubbles-1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 100%; /* REVISAR COMO ACOMODAR LA IMAGEN */
+    background-size: cover; /* REVISAR COMO ACOMODAR LA IMAGEN */
     border-radius: var(--border-radius-1);
 }
 
@@ -583,14 +596,17 @@ body {
     text-align: unset;
     border: none;
     border-radius: var(--border-radius-1);
-    background-color: var(--lavander-blue);    font-family: var(--aicura-logo-font);
+    font-family: var(--aicura-logo-font);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .discount-component {
     width: 64.13%;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    background-color: var(--lavander-blue);
+    cursor: pointer;
 }
 
 .dc-keyword-pill-group,
