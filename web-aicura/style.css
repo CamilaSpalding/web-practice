@@ -507,14 +507,10 @@ body {
 .show-log-in .log-in-dropdown-wrapper {
     transform: translateY(0);
 }
-
 /* -------------------------- */
 
 
 /* MAIN PAGE DESIGN */
-
-.main-page {
-}
 
 .main-page section {
     margin-bottom: 12px;
@@ -535,11 +531,11 @@ body {
 
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
-.main-page section div:nth-child(3) img {
+.ms-is-m-image-component img {
     width: 321px;
 }
 
-.main-page section div:nth-child(5) div:nth-child(2) img {
+.ms-is-m-specialists-component img {
     height: 681px;
 }
 /* ============================= */
