@@ -231,3 +231,19 @@
   border-radius: 4px;
 }
 /* ---------- */
+
+
+/* BOTON CON BORDE TRANSLLUCIDO */
+.container {
+  position: relative; /* Necesario para que el contenedor posicione correctamente sus elementos hijos */
+  display: inline-block; /* Asegura que el tamaño del div se ajuste a su contenido */
+  background-color: white; /* Fondo blanco */
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5); /* Borde translúcido */
+  padding: 10px; /* Añade espacio para el contenido sin tocar el borde */
+}
+
+.container img {
+  display: block; /* Evita que la imagen tenga espacios debajo (como los elementos en línea) */
+  max-width: 100%; /* Hace que la imagen se ajuste al contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}

@@ -136,6 +136,7 @@ body {
 .nav-bar-dropdown-search-menu-background,
 .log-in-dropdown-background {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
     width: 100%;
@@ -235,26 +236,6 @@ body {
 .close-icon img {
     width: 20px;
 }
-
-/* NUEVO BOTON DE CIERRE DEL SEARCH
-.close-btn {
-    width: 52px;
-    height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    background-color: var(--white);
-    border: 8px solid var(--purple-illusion-20percent);
-    border-radius: var(--border-radius-1);
-    cursor: pointer;
-}
-
-.log-in-form-close-btn img{
-    width: 14px;
-} */
 
 /* Show search */
 .show-search {
@@ -532,6 +513,7 @@ body {
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
 .main-section {
+    height: 681px;
     display: flex;
     gap: 12px;
 }
@@ -546,11 +528,17 @@ body {
 }
 
 .ms-inner-section:nth-child(1) {
-    width: 67%;
+    width: 69.35%;
+}
+
+.resent-btn {
+    all: unset;
 }
 
 .specialists-component {
-    width: 33%;
+    width: 30.65%;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     border: none;
     border-radius: var(--border-radius-1);
@@ -558,7 +546,60 @@ body {
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
+    font-family: var(--aicura-logo-font);
 }
+
+.specialists-info {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.specialists-info p {
+    color: var(--black);
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-regular);
+}
+
+.sc-keyword-pill-group {
+    gap: 4px;
+}
+
+.sc-keyword-pill-group .keyword-pill {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+    margin-top: 4px;
+    font-weight: var(--font-weight-regular);
+}
+
+.sc-b-icon-wrapper {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-opacity-2);
+    border-radius: var(--border-radius-1);
+}
+
+.sc-b-icon-container {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+}
+
+.sc-b-icon-wrapper img {
+    width: 12px;
+}
+
 /* ============================= */
 
 
@@ -863,4 +904,16 @@ body {
 
 .aicura-logo-footer-btn #special-letter-footer {
     color: var(--lavander);
+}
+
+
+/* WEB BREAKPOINTS STYLE */
+
+@media screen and (max-width: 1068px) and (min-width: 735px) {
+}
+
+@media screen and (max-width: 734px) and (min-width: 321px) {
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
 }
