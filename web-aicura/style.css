@@ -542,6 +542,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    padding-top: 16px;
     background-color: var(--moody-blue);
     border-radius: var(--border-radius-1);
     color: var(--white);
@@ -554,7 +555,7 @@ body {
 }
 
 .main-component p {
-    width: 70%;
+    width: 56%;
     font-size: var(--font-size-6);
     font-weight: var(--font-weight-regular);
     line-height: 29px;
@@ -564,24 +565,44 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
-.ac-decorative-element {
+.decorative-element-wrapper {
+    width: 52px;
     height: 52px;
+    background-color: var(--white-smoke);
+}
+
+.decorative-element {
+    width: 100%;
+    height: 100%;
+    background-color: var(--moody-blue);
+    border-bottom-right-radius: var(--border-radius-1);
+}
+
+.appointment-btn-container {
+    display: flex;
+    align-items: end;
 }
 
 .appointment-btn-wrapper {
-    background-color: var(--white-smoke);
     padding-top: 12px;
     padding-left: 12px;
+    background-color: var(--white-smoke);
     border-top-left-radius: var(--border-radius-1);
 }
+
+
 
 .appointment-btn {
     height: 52px;
     padding: 8px;
     padding-left: 16px;
     display: flex;
+    gap: 24px;
     align-items: center;
     /* position: absolute;
     right: 0;
