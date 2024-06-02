@@ -589,14 +589,24 @@ body {
     border: none;
     border-radius: var(--border-radius-1);
     background-color: var(--purple-illusion);
+    color: var(--black);
+    font-size: var(--font-size-8);
 }
 
-.ab-icon-wrapper {
+.ab-icon-container {
     width: 36px;
     height: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+}
+
+.ab-icon-container img,
+.dc-b-icon-container img,
+.sc-b-icon-container img {
+    width: 12px;
 }
 
 
@@ -671,11 +681,6 @@ body {
     align-items: center;
     background-color: var(--white);
     border-radius: var(--border-radius-1);
-}
-
-.dc-b-icon-container img,
-.sc-b-icon-container img {
-    width: 12px;
 }
 
 .discount-info,
