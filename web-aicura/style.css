@@ -607,14 +607,12 @@ button {
     display: flex;
     gap: 24px;
     align-items: center;
-    /* position: absolute;
-    right: 0;
-    bottom: 0; */
     border: none;
     border-radius: var(--border-radius-1);
     background-color: var(--purple-illusion);
     color: var(--black);
     font-size: var(--font-size-8);
+    cursor: pointer;
 }
 
 .ab-icon-container {
@@ -632,8 +630,6 @@ button {
 .sc-b-icon-container img {
     width: 12px;
 }
-
-
 
 .ms-is-module:nth-child(2) {
     display: flex;
@@ -655,7 +651,6 @@ button {
     text-align: unset;
     border: none;
     border-radius: var(--border-radius-1);
-    font-family: var(--aicura-logo-font);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
