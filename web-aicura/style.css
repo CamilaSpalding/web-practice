@@ -554,22 +554,41 @@ body {
 }
 
 .main-component p {
+    width: 70%;
     font-size: var(--font-size-6);
     font-weight: var(--font-weight-regular);
     line-height: 29px;
 }
 
-.appointment-btn {
-    height: 52px;
-    padding: 8px;
-    display: flex;
-    justify-content: ;
-    align-items: center;
+.appointment-component {
     position: absolute;
     right: 0;
     bottom: 0;
-    border: 12px solid var(--white-smoke);
+}
+
+.ac-decorative-element {
+    height: 52px;
+}
+
+.appointment-btn-wrapper {
+    background-color: var(--white-smoke);
+    padding-top: 12px;
+    padding-left: 12px;
+    border-top-left-radius: var(--border-radius-1);
+}
+
+.appointment-btn {
+    height: 52px;
+    padding: 8px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    border: none;
     border-radius: var(--border-radius-1);
+    background-color: var(--purple-illusion);
 
 
 }
