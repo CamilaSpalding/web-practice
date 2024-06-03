@@ -631,6 +631,20 @@ button {
     width: 12px;
 }
 
+/* ---- */
+.appointment-btn .ab-icon-container img,
+.discount-component .dc-b-icon-container img,
+.specialists-component .sc-b-icon-container img {
+    transition: 0.15s ease-in-out;
+}
+
+.appointment-btn:hover .ab-icon-container img,
+.discount-component:hover .dc-b-icon-container img,
+.specialists-component:hover .sc-b-icon-container img {
+    transform: rotate(45deg);
+} 
+/* ----- */
+
 .ms-is-module:nth-child(2) {
     display: flex;
     gap: 12px;
