@@ -806,9 +806,12 @@ button {
 }
 
 .doctor-card {
-    width: 24.29%;
+    /* width: 24.29%; */
+    width: calc((100% - 3 * 12px) / 4); /* Agregado con CHAT GPT */
     height: 400px;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
     border: none;
     background-color: var(--white);
     border-radius: var(--border-radius-1);
@@ -1124,11 +1127,21 @@ button {
 
 /* WEB BREAKPOINTS STYLE */
 
-@media screen and (max-width: 1068px) and (min-width: 735px) {
+@media /* screen and */ (max-width: 1068px) /* and (min-width: 735px) */ {
+    .doctor-card {
+        width: calc((100% - 2 * 12px) / 3); /* Agregado con CHAT GPT */
+    }
 }
 
-@media screen and (max-width: 734px) and (min-width: 321px) {
+
+@media /* screen and */ (max-width: 734px) /* and (min-width: 321px) */ {
+    .doctor-card {
+        width: calc((100% - 1 * 12px) / 2);
+    }
 }
 
-@media screen and (max-width: 320px) and (min-width: 0px) {
+@media /* screen and */ (max-width: 320px) /* and (min-width: 0px) */ {
+    .doctor-card {
+        width: 100%;
+    }
 }
