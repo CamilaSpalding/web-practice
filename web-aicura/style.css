@@ -291,12 +291,8 @@ button {
     background-color: var(--purple-illusion);
 }
 
-.log-in-btn .log-in-icon-wrapper img {
+.log-in-icon-wrapper img {
     width: 10px;
-}
-
-.log-in-btn .log-in-icon-wrapper img,
-.log-in-form-btn .log-in-icon-wrapper img {
     transition: 0.15s ease-in-out;
 }
 
@@ -545,11 +541,15 @@ button {
     align-items: center;
     background-color: var(--purple-illusion);
     border-radius: var(--border-radius-1);
-
 }
 
 .view-all-icon-wrapper img {
     width: 12px;
+    transition: 0.15s ease-in-out;
+}
+
+.view-all-btn:hover .view-all-icon-wrapper img {
+    transform: rotate(45deg);
 }
 
 
@@ -670,12 +670,6 @@ button {
 .dc-b-icon-container img,
 .sc-b-icon-container img {
     width: 12px;
-}
-
-/* ---- */
-.appointment-btn .ab-icon-container img,
-.discount-component .dc-b-icon-container img,
-.specialists-component .sc-b-icon-container img {
     transition: 0.15s ease-in-out;
 }
 
@@ -684,7 +678,6 @@ button {
 .specialists-component:hover .sc-b-icon-container img {
     transform: rotate(45deg);
 } 
-/* ----- */
 
 .ms-is-module:nth-child(2) {
     display: flex;
