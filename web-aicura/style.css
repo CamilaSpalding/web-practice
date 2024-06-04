@@ -510,10 +510,24 @@ button {
     padding: 0;
 }
 
+.main-page section:nth-child(5) {
+    background-color: var(--lavander);
+}
+
 .main-page section:last-child {
     padding-top: 40px;
 }
 
+.view-all-btn {
+   
+}
+
+
+.view-all-icon-wrapper {
+
+}
+
+.view-all-icon-wrapper img {}
 
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
@@ -745,6 +759,19 @@ button {
     color: var(--black);
     font-size: var(--font-size-6);
     font-weight: var(--font-weight-regular);
+}
+/* ============================= */
+
+
+/* MAIN PAGE: CONTACT PANNEL DESIGN */
+
+.team-section {
+    height: 629px;
+}
+
+
+.doctor-card-container {
+
 }
 
 
