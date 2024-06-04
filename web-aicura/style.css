@@ -519,7 +519,11 @@ button {
 }
 
 .view-all-btn {
-   
+    height: 52px;
+    text-decoration: none;
+    background-color: transparent;
+    border: var(--borders-width) solid var(--black);
+    font-size: var(--font-size-8);
 }
 
 
