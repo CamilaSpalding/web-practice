@@ -784,12 +784,34 @@ button {
 /* MAIN PAGE: CONTACT PANNEL DESIGN */
 
 .team-section {
-    height: 629px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
 }
 
+.team-section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
 
-.doctor-card-container {
+.doctor-card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
 
+.doctor-card {
+    width: 24.29%;
+    height: 400px;
+    padding: 16px;
+    border: none;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
 }
 
 
