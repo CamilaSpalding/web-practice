@@ -61,9 +61,9 @@ updateSearchUI();
 
 
 /* SCRIPT PARA LA PÁGINA DE LOG IN */
-const logIn = document.getElementById('logIn'),
-    logInBtn = document.getElementById('logInBtn'),
-    logInCloseBtn = document.getElementById('logInFormCloseBtn');
+const logIn = document.getElementById('logIn')
+const logInBtn = document.getElementById('logInBtn')
+const logInCloseBtn = document.getElementById('logInFormCloseBtn')
 
 
 /* Mostrar el login */
