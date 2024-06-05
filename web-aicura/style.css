@@ -1158,6 +1158,12 @@ button {
         z-index: 0;
     }
 
+    .ab-icon-container img,
+    .dc-b-icon-container img,
+    .sc-b-icon-container img {
+        width: 10px;
+    }
+
     .specialists-component p {
         font-size: var(--font-size-9);
     }
@@ -1172,9 +1178,6 @@ button {
         height: 29px;
     }
 
-    .sc-b-icon-wrapper img {
-        width: 10px;
-    }
 
     /* BREAKPOINT: TEAM SECTION */
     /* Tarjetas de los doctores */
