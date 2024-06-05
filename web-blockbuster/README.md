@@ -5,6 +5,8 @@ This project is based on my own design. It showcases my ability to handle both t
 
 ## Designer Information
 - **Designer:** Camila Spalding
+- **LinkedIn Profile:** [Camila Spalding on LinkedIn](www.linkedin.com/in/camila-spalding-aa336a143)
+- **Behance Profile:** [Camila Spalding on Behance](https://www.behance.net/camilaspal35cf)
 
 ## Progress
 You can check the progress of this project in the following GitHub repository: [GitHub Repository Link](https://github.com/CamilaSpalding/web-practice.git)
