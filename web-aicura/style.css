@@ -1172,7 +1172,9 @@ button {
         height: 29px;
     }
 
-    .ic
+    .sc-b-icon-wrapper img {
+        width: 10px;
+    }
 
     /* BREAKPOINT: TEAM SECTION */
     /* Tarjetas de los doctores */
