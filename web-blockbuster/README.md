@@ -14,6 +14,12 @@ You can check the progress of this project in the following GitHub repository: [
 ## Contact
 If you have any questions or need further information about this project, please feel free to reach out to me at camilaspaldingdg@gmail.com.
 
+## License
+This project's code is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). This means that you can use, modify, and distribute the code for non-commercial purposes, as long as you give credit to the original author and do not derive any commercial benefit from it.
+
+The original design ... and should not be used for commercial purposes without permission. Any permission for the use of the design should be requested directly to camilaspaldingdg@gmail.com.
+
 ---
 
-Camila Spalding
+**Camila Spalding**  
+Graphic Designer | Full Stack Web Development Student | Future UX/UI Design Student
