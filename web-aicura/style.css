@@ -517,7 +517,7 @@ button {
     padding-top: 40px;
 }
 
-.view-all-btn {
+.primary-btn {
     width: fit-content;
     height: 52px;
     padding: 8px;
@@ -535,7 +535,7 @@ button {
 }
 
 
-.view-all-icon-wrapper {
+.primary-btn-icon-wrapper {
     width: 36px;
     height: 36px;
     display: flex;
@@ -545,7 +545,7 @@ button {
     border-radius: var(--border-radius-1);
 }
 
-.view-all-icon-wrapper img {
+.primary-btn-icon-wrapper img {
     width: 12px;
     transition: 0.15s ease-in-out;
 }
@@ -814,7 +814,6 @@ button {
 .text-special-style {
     color: var(--purple-illusion);
 }
-
 
 
 .achievement-card {
