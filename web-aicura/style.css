@@ -786,6 +786,59 @@ button {
 
 /* MAIN PAGE: MISSION PANNEL */
 
+.aicura-mission-section {
+    height: 760px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.aicura-mission {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.aicura-mission p {
+    font-size: 60px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 75px;
+    color: var(--black);
+    text-align: center;
+}
+
+
+
+.achievement-card {
+    position: absolute;
+    width: 321px;
+    height: 166px;
+    padding: 16px;
+    border: var(--borders-width) solid var(--dirty-lavander);
+    border-radius: var(--border-radius-1);
+    background-color: var(--white-opacity-1);
+    backdrop-filter: blur(2px);
+}
+
+.achievement-card:nth-child(1) {
+    top: 123px;
+    left: 24px;
+}
+
+.achievement-card:nth-child(2) {
+    bottom: 129px;
+    left: 184px;
+}
+
+.achievement-card:nth-child(3) {
+    top: 71px;
+    right: 24px;
+}
+
 .text-special-style {
     color: var(--purple-illusion);
 }
