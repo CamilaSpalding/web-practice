@@ -34,7 +34,7 @@
     /* Font family */
     --aicura-logo-font: "Inter", sans-serif;
     /* Font weights */
-    --font-weight-regular: 400;
+    --font-weight-regular: 350;
     --font-weight-semibold: 600;
     /* Font sizes */
     --font-size-1: 180px;
@@ -823,6 +823,8 @@ button {
     height: 166px;
     padding: 16px;
     position: absolute;
+    display: flex;
+    justify-content: space-between;
     border: var(--borders-width) solid var(--dirty-lavander);
     border-radius: var(--border-radius-1);
     background-color: var(--white-opacity-1);
@@ -845,7 +847,7 @@ button {
 }
 
 .achievement-info {
-    width: 70%;
+    width: 224px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -855,14 +857,23 @@ button {
 .achievement-info p {
     font-size: var(--font-size-7);
     font-weight: var(--font-weight-regular);
+    line-height: 29px;
 }
 
 .ac-patients-pic-group {
+    display: flex;
 
 }
 
 .patient-pic {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--border-radius-1);
+}
 
+.patient-pic:nth-child(2),
+.patient-pic:nth-child(3) {
+    margin-left: -12px;
 }
 
 .ac-icon-wrapper {
