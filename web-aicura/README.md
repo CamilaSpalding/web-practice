@@ -14,10 +14,11 @@ This project is based on a design by *Victoria Fardzinova*, you can find the ori
 2. [Designer's Information](#designers-information)
 3. [Designer's Notes](#designers-notes)
 4. [Materials](#materials)
-5. [Permissions and Licenses](#permissions-and-licenses)
+5. [Hosted Version](#hosted-version)
+6. [Permissions and Licenses](#permissions-and-licenses)
     1. [Conditions](#conditions)
     2. [Code License](#code-license)
-6. [Contact](#contact)
+7. [Contact](#contact)
 
 ## Technologies
 List of technologies and tools used in the development of the project:
@@ -42,6 +43,9 @@ This was also a student project, so some pages may not be completed. Victoria is
 - Icons
 - Design specifications:
     - Figma File
+
+## Hosted Version
+The project is hosted on Vercel and can be accessed at the following link: [AiCURA on Vercel](https://aicura-camila-spaldings-projects.vercel.app/)
 
 ## Permissions and Licenses
 
