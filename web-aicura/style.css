@@ -738,28 +738,6 @@ button {
     font-size: var(--font-size-10);
 }
 
-.dc-b-icon-wrapper,
-.sc-b-icon-wrapper {
-    width: 52px;
-    height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white-opacity-2);
-    border-radius: var(--border-radius-1);
-}
-
-.dc-b-icon-container,
-.sc-b-icon-container {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white);
-    border-radius: var(--border-radius-1);
-}
-
 .discount-info,
 .specialists-info {
     width: 75%;
@@ -1276,24 +1254,22 @@ button {
         z-index: 0;
     }
 
-    .ab-icon-container img,
-    .dc-b-icon-container img,
-    .sc-b-icon-container img {
-        width: 10px;
-    }
-
     .specialists-component p {
         font-size: var(--font-size-9);
     }
 
-    .sc-b-icon-wrapper {
+    .redirect-icon-wrapper {
         width: 42px;
         height: 42px;
     }
 
-    .sc-b-icon-container {
+    .redirect-icon-container {
         width: 29px;
         height: 29px;
+    }
+
+    .redirect-icon-container img {
+        width: 10px;
     }
 
 
