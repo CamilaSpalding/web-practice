@@ -835,7 +835,7 @@ button {
     border: var(--borders-width) solid var(--dirty-lavander);
     border-radius: var(--border-radius-1);
     background-color: var(--white-opacity-1);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
 }
 
 .achievement-card:nth-child(1) {
@@ -883,23 +883,8 @@ button {
     margin-left: -12px;
 }
 
-.ac-icon-wrapper {
-    width: 52px;
-    height: 52px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white-opacity-2);
-    border-radius: var(--border-radius-1);
-}
-
-.ac-icon-container {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white);
+.achievement-card .redirect-icon-wrapper {
+    background-color: var(--purple-illusion-opacity-3);
     border-radius: var(--border-radius-1);
 }
 
