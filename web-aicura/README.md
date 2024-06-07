@@ -1,7 +1,7 @@
 # AiCURA Project
 
 ## Description
-*Aicura Proyect* is a personal project created to practice and enhance coding skills. This project involves collaborating with a web designer found on Behance, whose visually appealing design caught my attention. With her permission, I am using her project for practice. The conditions for usage will be mentioned later in the "Permissions and Licenses" section of the project.
+*Aicura Proyect* is a personal project created to practice and enhance coding skills. This project involves collaborating with a UX/UI designer found on Behance, whose visually appealing design caught my attention. With her permission, I am using her project for practice. The conditions for usage will be mentioned later in the "Permissions and Licenses" section of the project.
 
 ## Overview
 *Aicura Proyect* is an ongoing development project aimed at practicing HTML, CSS, and JavaScript, with the intention of transitioning the code to React as my skills advance. The primary goal is to bring the designer's vision to life while challenging myself to improve my web development abilities. The project is not intended for real-world use, but rather as a practice exercise and a demonstration of my progress. Once completed, the project will be shared with the designer to showcase her design in a functional web application.
@@ -29,6 +29,7 @@ List of technologies and tools used in the development of the project:
 
 ## Designer's Information
 - **Designer:** Victoria Fardzinova
+- **Role:** UI/UX Designer
 - **Behance Profile:** [Victoria Fardzinova on Behance](https://www.behance.net/victoria_fardzinova)
 
 ## Designer's Notes
@@ -60,11 +61,10 @@ Please note that this license applies only to the code created for this project.
 ## Contact
 If you have any questions or need further information about this project, please feel free to reach out to me at camilaspaldingdg@gmail.com.
 
+---
+
 ## Project Details
 
 - **Creation Date:** May 24th, 2024
 - **Project Author:** Camila Spalding
 - **Profession:** Graphic Designer | Full Stack Web Development Student | Future UX/UI Design Student
----
-- **Design by:** Victoria Fardzinova
-- **Role:** UI/UX Designer

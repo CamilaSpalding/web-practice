@@ -60,6 +60,8 @@ Please note that this license applies only to the code created for this project.
 ## Contact
 If you have any questions or need further information about this project, please feel free to reach out to me at camilaspaldingdg@gmail.com.
 
+---
+
 ## Project Details
 
 - **Creation Date:** [Fecha-de-Creación]
