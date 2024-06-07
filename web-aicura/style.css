@@ -550,10 +550,34 @@ button {
     transition: 0.15s ease-in-out;
 }
 
-.view-all-btn:hover .view-all-icon-wrapper img {
+.primary-btn:hover .primary-btn-icon-wrapper img {
     transform: rotate(45deg);
 }
 
+.redirect-icon-wrapper {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-opacity-2);
+    border-radius: var(--border-radius-1);
+}
+
+.redirect-icon-container {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+}
+
+.redirect-icon-container img {
+    width: 12px;
+    transition: 0.15s ease-in-out;
+}
 
 
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
@@ -658,28 +682,12 @@ button {
     cursor: pointer;
 }
 
-.ab-icon-container {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white);
-    border-radius: var(--border-radius-1);
-}
-
-.ab-icon-container img,
-.dc-b-icon-container img,
-.sc-b-icon-container img {
-    width: 12px;
-    transition: 0.15s ease-in-out;
-}
-
-.appointment-btn:hover .ab-icon-container img,
-.discount-component:hover .dc-b-icon-container img,
-.specialists-component:hover .sc-b-icon-container img {
+.appointment-btn:hover .redirect-icon-container img,
+.discount-component:hover .redirect-icon-container img,
+.specialists-component:hover .redirect-icon-container img {
     transform: rotate(45deg);
 } 
+
 
 .ms-is-module:nth-child(2) {
     display: flex;
@@ -876,11 +884,23 @@ button {
 }
 
 .ac-icon-wrapper {
-
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-opacity-2);
+    border-radius: var(--border-radius-1);
 }
 
 .ac-icon-container {
-
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
 }
 
 .ac-keyword-pill-group .keyword-pill {
