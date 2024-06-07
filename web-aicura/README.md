@@ -1,12 +1,12 @@
 # AiCURA Project
 
 ## Description
-Aicura Proyect is a personal project created to practice and enhance coding skills. This project involves collaborating with a web designer found on Behance, whose visually appealing design caught my attention. With her permission, I am using her project for practice. The conditions for usage will be mentioned later in the "Permissions and Licenses" section of the project.
+*Aicura Proyect* is a personal project created to practice and enhance coding skills. This project involves collaborating with a web designer found on Behance, whose visually appealing design caught my attention. With her permission, I am using her project for practice. The conditions for usage will be mentioned later in the "Permissions and Licenses" section of the project.
 
 ## Overview
-Aicura Proyect is an ongoing development project aimed at practicing HTML, CSS, and JavaScript, with the intention of transitioning the code to React as my skills advance. The primary goal is to bring the designer's vision to life while challenging myself to improve my web development abilities. The project is not intended for real-world use, but rather as a practice exercise and a demonstration of my progress. Once completed, the project will be shared with the designer to showcase her design in a functional web application.
+*Aicura Proyect* is an ongoing development project aimed at practicing HTML, CSS, and JavaScript, with the intention of transitioning the code to React as my skills advance. The primary goal is to bring the designer's vision to life while challenging myself to improve my web development abilities. The project is not intended for real-world use, but rather as a practice exercise and a demonstration of my progress. Once completed, the project will be shared with the designer to showcase her design in a functional web application.
 
-This project is based on a design by Victoria Fardzinova. It is a web development practice project to improve my coding skills by transforming the design into a functional website.
+This project is based on a design by *Victoria Fardzinova*, you can find the original design here: https://www.behance.net/gallery/198604323/AiCURA-Medical-Clinic-Website-Design-(UIUX)
 
 ## Table of Contents
 
