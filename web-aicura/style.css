@@ -495,6 +495,8 @@ button {
 /* -------------------------- */
 
 
+
+
 /* MAIN PAGE DESIGN */
 
 .main-page section {
@@ -577,6 +579,21 @@ button {
 .redirect-icon-container img {
     width: 12px;
     transition: 0.15s ease-in-out;
+}
+
+.keyword-pill-group {
+    gap: 4px;
+}
+
+.keyword-pill {
+    height: 35px;
+    padding: 8px 12px;
+    display: inline-block;
+    background-color: var(--white);
+    border-radius: var(--border-radius-1);
+    margin-top: 4px;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-10);
 }
 
 
@@ -721,23 +738,6 @@ button {
     cursor: pointer;
 }
 
-.dc-keyword-pill-group,
-.sc-keyword-pill-group {
-    gap: 4px;
-}
-
-.dc-keyword-pill-group .keyword-pill,
-.sc-keyword-pill-group .keyword-pill {
-    height: 35px;
-    padding: 8px 12px;
-    display: inline-block;
-    background-color: var(--white);
-    border-radius: var(--border-radius-1);
-    margin-top: 4px;
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-10);
-}
-
 .discount-info,
 .specialists-info {
     width: 75%;
@@ -866,15 +866,8 @@ button {
     border-radius: var(--border-radius-1);
 }
 
-.ac-keyword-pill-group .keyword-pill {
-    height: 35px;
-    padding: 8px 12px;
-    display: inline-block;
+.achievement-card .keyword-pill-group .keyword-pill {
     background-color: var(--lavander);
-    border-radius: var(--border-radius-1);
-    margin-top: 4px;
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-10);
 }
 /* ============================= */
 
