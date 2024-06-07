@@ -783,7 +783,28 @@ button {
 /* ============================= */
 
 
-/* MAIN PAGE: CONTACT PANNEL DESIGN */
+
+/* MAIN PAGE: MISSION PANNEL */
+
+.text-special-style {
+    color: var(--purple-illusion);
+}
+
+.ac-keyword-pill-group .keyword-pill {
+    height: 35px;
+    padding: 8px 12px;
+    display: inline-block;
+    background-color: var(--lavander);
+    border-radius: var(--border-radius-1);
+    margin-top: 4px;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-10);
+}
+/* ============================= */
+
+
+
+/* MAIN PAGE: OUR TEAM PANNEL DESIGN */
 
 .team-section {
     height: 100%;
@@ -817,21 +838,6 @@ button {
     border: none;
     background-color: var(--white);
     border-radius: var(--border-radius-1);
-}
-/* ============================= */
-
-
-/* MAIN PAGE: MISSION PANNEL */
-
-.ac-keyword-pill-group .keyword-pill {
-    height: 35px;
-    padding: 8px 12px;
-    display: inline-block;
-    background-color: var(--lavander);
-    border-radius: var(--border-radius-1);
-    margin-top: 4px;
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-10);
 }
 /* ============================= */
 
