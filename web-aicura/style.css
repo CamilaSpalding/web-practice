@@ -596,6 +596,10 @@ button {
     font-size: var(--font-size-10);
 }
 
+.rotate-on-hover:hover .redirect-icon-container img {
+    transform: rotate(45deg);
+}
+
 
 /* MAIN PAGE: PRIMARY PANNEL DESIGN */
 
@@ -698,13 +702,6 @@ button {
     font-size: var(--font-size-10);
     cursor: pointer;
 }
-
-.appointment-btn:hover .redirect-icon-container img,
-.discount-component:hover .redirect-icon-container img,
-.specialists-component:hover .redirect-icon-container img {
-    transform: rotate(45deg);
-} 
-
 
 .ms-is-module:nth-child(2) {
     display: flex;
@@ -861,13 +858,13 @@ button {
     margin-left: -12px;
 }
 
+.achievement-card .keyword-pill-group .keyword-pill {
+    background-color: var(--lavander);
+}
+
 .achievement-card .redirect-icon-wrapper {
     background-color: var(--purple-illusion-opacity-3);
     border-radius: var(--border-radius-1);
-}
-
-.achievement-card .keyword-pill-group .keyword-pill {
-    background-color: var(--lavander);
 }
 /* ============================= */
 
